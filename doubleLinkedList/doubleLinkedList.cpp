@@ -9,3 +9,7 @@ public :
 	Node* next;
 	Node* previous;
 };
+
+class DoubleLinkedList {
+
+};

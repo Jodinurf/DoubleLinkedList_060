@@ -4,5 +4,7 @@ using namespace std;
 
 class Node {
 public :
-	
+	int noMhs;
+	string name;
+
 };

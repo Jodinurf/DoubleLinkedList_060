@@ -16,7 +16,7 @@ private :
 public:
 
 	void addNode();
-	bool search(int rollNo, Node** previous, Node* current);
+	bool search(int rollNo, Node** previous, Node**current);
 	bool deleteNode(int rollNo);
 	bool listEmpty();
 	void traverse();
@@ -73,3 +73,4 @@ void DoubleLinkedList::addNode() {
 		current->next->previous = newNode;	//step.6
 	current->next = newNode;
 }
+
